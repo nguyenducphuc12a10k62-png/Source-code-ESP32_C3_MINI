@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // THAY ĐỔI: Nhãn mới
+            "label": "Start UDP Server", 
+            "type": "shell",
+            // THAY ĐỔI: Gọi file udp_server.py
+            "command": "python udp_server.py", 
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "runOptions": {
+                "instanceLimit": 1,
+                "reevaluateOnRerun": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+dependencies:
+  espressif/rmaker_common: "*"
+  espressif/network_provisioning: "*"
+  espressif/jsmn: "^1.0.0"
+  espressif/qrcode: "*"
+  # espressif/esp-rainmaker: "*"

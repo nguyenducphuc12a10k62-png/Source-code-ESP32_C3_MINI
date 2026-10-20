@@ -1,0 +1,7 @@
+idf_component_register(SRCS "app_wifi.c"
+                    INCLUDE_DIRS "."
+                    REQUIRES nvs_flash network_provisioning esp_rainmaker qrcode)
+
+if(CONFIG_APP_WIFI_SHOW_DEMO_INTRO_TEXT)
+    target_compile_definitions(${COMPONENT_LIB} PRIVATE "-DRMAKER_DEMO_PROJECT_NAME=\"${CMAKE_PROJECT_NAME}\"")
+endif()

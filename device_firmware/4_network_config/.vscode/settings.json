@@ -1,0 +1,8 @@
+{
+    "idf.flashType": "UART",
+    "idf.portWin": "COM4",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.pythonInstallPath": "C:\\Users\\hoang\\.espressif\\tools\\idf-python\\3.11.2\\python.exe"
+}

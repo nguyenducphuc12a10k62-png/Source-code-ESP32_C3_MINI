@@ -1,0 +1,26 @@
+{
+  "idf.portWin": "COM4",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c3"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+    "--compile-commands-dir=d:\\book-esp32c3-iot-projects-main\\device_firmware\\5_rainmaker\\build"
+  ],
+  "files.associations": {
+    "light_driver.h": "c",
+    "esp_rmaker_schedule.h": "c",
+    "board_esp32c3_devkitc.h": "c",
+    "app_priv.h": "c",
+    "app_storage.h": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.espIdfPathWin": "C:\\Users\\hoang\\esp\\v5.5.1\\esp-idf",
+  "idf.toolsPathWin": "C:\\Users\\hoang\\.espressif",
+  "idf.pythonInstallPath": "C:\\Users\\hoang\\.espressif\\tools\\idf-python\\3.11.2\\python.exe"
+}

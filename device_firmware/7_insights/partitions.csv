@@ -1,0 +1,12 @@
+# Name,    Type, SubType, Offset,  Size, Flags
+# Note: Firmware partition offset needs to be 64K aligned
+sec_cert,  0x3F, ,        0xd000,  0x3000, ,  # Never mark this as an encrypted partition
+nvs,       data, nvs,     0x10000, 0x6000,
+otadata,   data, ota,     ,        0x2000
+phy_init,  data, phy,     ,        0x1000,
+# Tăng size lên 1900K (khoảng 1.9MB) để thoải mái code
+ota_0,     app,  ota_0,   0x20000, 1900K,
+ota_1,     app,  ota_1,   ,        1900K,
+# Xóa offset cứng (0x340000) để nó tự động đẩy lùi xuống
+fctry,     data, nvs,     ,        0x6000
+coredump,  data, coredump,,        64K

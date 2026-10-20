@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start TCP Server",
+            "type": "shell",
+            "command": "python server.py",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false // Sửa từ true thành false
+            },
+            "runOptions": {
+                "instanceLimit": 1,
+                "reevaluateOnRerun": true
+            }
+        }
+    ]
+}

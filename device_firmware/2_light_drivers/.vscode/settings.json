@@ -1,0 +1,22 @@
+{
+  "idf.portWin": "COM4",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c3"
+  },
+  "clangd.path": "C:\\Users\\Admin\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\Admin\\.espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\Admin\\Desktop\\book-esp32c3-iot-projects-main\\device_firmware\\2_light_drivers\\build"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "light_driver.h": "c",
+    "iot_led.h": "c",
+    "esp_err.h": "c",
+    "ledc.h": "c"
+  }
+}
